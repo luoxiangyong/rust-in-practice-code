@@ -1,0 +1,13 @@
+[package]
+name = "use_external_crate"
+version = "0.1.0"
+authors = ["Luo Xiangyong <luoxiangyong@topgridcloud.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+#gprl-lib-demo = "^0.1.0"
+#gprl-lib-demo = { git = "https://github.com/luoxiangyong/gprl_lib_demo.git",branch= "master"}
+gprl-lib-demo = { path = "../gprl_lib_demo" }
+
