@@ -1,0 +1,8 @@
+[package]
+name = "gprl-sqlite3-demo"
+version = "0.1.0"
+authors = ["Luo Xiangyong <luoxiangyong@topgridcloud.com>"]
+edition = "2018"
+
+[dependencies]
+sqlite = "0.25.0"
