@@ -13,7 +13,7 @@ fn main() {
         true
     }).unwrap();
     
-    connection.execute("update my_demo_apps set authors="\祥勇\"　where id=1;").unwrap();
+    connection.execute("update my_demo_apps set authors=\"祥勇\" where id=1;").unwrap();
     
     println!("修改后的数据为：");
     connection.iterate("SELECT * FROM my_demo_apps", |pairs| {
